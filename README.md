@@ -1,5 +1,5 @@
-# GEM-preprocessing
-# GEM Processing
+# GEM preprocessing
+
 
 ## Task: Preprocessing a GEM for downstream analysis. 
 
