@@ -27,7 +27,7 @@ gunzip kidney-rsem-fpkm-gtex.txt.gz  #unzip the downloaded files
 gunzip kirp-rsem-fpkm-tcga-t.txt.gz 
 ``` 
 
-# STEP 2a: Process the GEM files Using your Path 
+## STEP 2a: Process the GEM files Using your Path 
 ``` 
 python /scratch/leiarar/gem-processing/GEMprep/bin/merge.py kidney-rsem-fpkm-gtex.txt kirp-rsem-fpkm-tcga-t.txt kidney-gtex-kirp.txt  #Merge the GTEX and TCGA GEMs
 
@@ -44,7 +44,7 @@ head -n1 kidney-gtex-kirp.quantile.log2.txt | sed 's/\t/\n/g' | sed 's/-/,/g' | 
 head -n2 kidney-gtex-kirp.quantile.log2.txt > first_two_lines_gem.txt #check the file 
 ``` 
 
-# STEP 4: Check all processed files to ensure everything is created properly for GEM processing
+## STEP 3a: Check all processed files to ensure everything is created properly for GEM processing
 ```
 These normalized matrices can now be used for the following: 
 1. Input files for discovery biomarkers. 
