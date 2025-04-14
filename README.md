@@ -45,6 +45,13 @@ head -n2 kidney-gtex-kirp.quantile.log2.txt > first_two_lines_gem.txt #check the
 ``` 
 
 # STEP 4: Check all processed files to ensure everything is created properly for GEM processing
+```
+These normalized matrices can now be used for the following: 
+1. Input files for discovery biomarkers. 
+2. Construction of gene co-expression networks (GCNs).  
+3. Differential gene expression analysis between normal and tumor samples or DEGs. 
+
+```
 
 
 
