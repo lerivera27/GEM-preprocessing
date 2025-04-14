@@ -1,7 +1,7 @@
 # GEM preprocessing
 
 
-## Task: Preprocessing a GEM for downstream analysis. 
+## Task: Preprocessing a GEM for down-stream analysis in medical bioinformatics. 
 
 # STEP 1: Install the GEMprep Environment 
 ``` 
